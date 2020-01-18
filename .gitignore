@@ -1,0 +1,22 @@
+# Ignore everything
+/*
+
+
+# But not these files...
+!/.gitignore
+!/*.vhd
+!/*.ucf
+
+# ...even if they are in subdirectories
+!/guia4
+/guia4/*
+!/guia4/*.vhd
+!/guia4/*.ucf
+!/UART
+/UART/*
+!/UART/*.vhd
+!/UART/*.ucf
+!/Parcial_dos
+/Parcial_dos/*
+!/Parcial_dos/*.vhd
+!/Parcial_dos/*.ucf

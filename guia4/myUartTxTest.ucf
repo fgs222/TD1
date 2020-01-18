@@ -1,0 +1,8 @@
+
+NET "clk"   LOC = "L15";
+NET "clk" PERIOD = 10.0ns HIGH 50%;
+NET "rst" LOC = "T15";
+
+NET "btn" LOC = "N4";
+NET "tx" LOC = "B16";
+#NET "dataWr" LOC = "E4";
